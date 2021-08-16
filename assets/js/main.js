@@ -23,8 +23,9 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 0.01);
 		});
+
 
 	// Touch?
 		if (browser.mobile)
